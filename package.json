@@ -1,0 +1,27 @@
+{
+  "name": "mocha_chai_tests",
+  "version": "1.0.0",
+  "description": "make test pass",
+  "main": "findtarget.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrod28/tests-mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrod28/tests-mocha/issues"
+  },
+  "homepage": "https://github.com/hrod28/tests-mocha#readme"
+}
